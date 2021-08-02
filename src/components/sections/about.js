@@ -49,12 +49,10 @@ const StyledText = styled.div`
 const StyledPic = styled.div`
   position: relative;
   max-width: 300px;
-
   @media (max-width: 768px) {
     margin: 50px auto 0;
     width: 70%;
   }
-
   .wrapper {
     ${({ theme }) => theme.mixins.boxShadow};
     display: block;
@@ -62,23 +60,19 @@ const StyledPic = styled.div`
     width: 100%;
     border-radius: var(--border-radius);
     background-color: var(--green);
-
     &:hover,
     &:focus {
       background: transparent;
       outline: 0;
-
       &:after {
         top: 15px;
         left: 15px;
       }
-
       .img {
         filter: none;
         mix-blend-mode: normal;
       }
     }
-
     .img {
       position: relative;
       border-radius: var(--border-radius);
@@ -86,7 +80,6 @@ const StyledPic = styled.div`
       filter: grayscale(100%) contrast(1);
       transition: var(--transition);
     }
-
     &:before,
     &:after {
       content: '';
@@ -97,14 +90,12 @@ const StyledPic = styled.div`
       border-radius: var(--border-radius);
       transition: var(--transition);
     }
-
     &:before {
       top: 0;
       left: 0;
       background-color: var(--navy);
       mix-blend-mode: screen;
     }
-
     &:after {
       border: 2px solid var(--green);
       top: 20px;
@@ -153,16 +144,15 @@ const About = () => {
               DSA problems. Solved 200+ DSA problems, invested 1200+ hours in coding with hands-on
               experience in 4+ working projects Curious to learn new skills zealous to start my
               career in a company that allows growth and learning
-            </p> 
-            </div>
-  </StyledText>
-            {/* <p>Here are a few technologies I've been working with recently:</p>
+            </p>
+          </div>
+        </StyledText>
+        {/* <p>Here are a few technologies I've been working with recently:</p>
          
 
           <ul className="skills-list">
             {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
           </ul> */}
-      
 
         <StyledPic>
           <div className="wrapper">
