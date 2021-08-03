@@ -7,12 +7,10 @@ import { usePrefersReducedMotion } from '@hooks';
 
 const StyledAboutSection = styled.section`
   max-width: 900px;
-
   .inner {
     display: grid;
     grid-template-columns: 3fr 2fr;
     grid-gap: 50px;
-
     @media (max-width: 768px) {
       display: block;
     }
@@ -27,14 +25,12 @@ const StyledText = styled.div`
     margin: 20px 0 0 0;
     overflow: hidden;
     list-style: none;
-
     li {
       position: relative;
       margin-bottom: 10px;
       padding-left: 20px;
       font-family: var(--font-mono);
       font-size: var(--fz-xs);
-
       &:before {
         content: '▹';
         position: absolute;
