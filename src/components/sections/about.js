@@ -132,14 +132,14 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hi, I'm Minakshi Das. Aspiring full-stack web developer with a problem-solving
+              Hi, I'm Minakshi Das, an aspiring full-stack web developer with a problem-solving
               mindset.
             </p>
             <p>
-              I'm Dedicated and passionate about coding, skilled in MERN stack. Coding and solving
-              DSA problems. Solved 200+ DSA problems, invested 1200+ hours in coding with hands-on
-              experience in 4+ working projects Curious to learn new skills zealous to start my
-              career in a company that allows growth and learning
+              I'm dedicated and passionate about coding, skilled in MERN stack, coding and solving
+              DSA problems. I have solved over 200+ DSA problems, invested 1200+ hours in coding
+              with hands-on experience in 4+ working projects. I am always curious to learn new
+              skills, zealous to start my career in a company that allows growth and learning.
             </p>
           </div>
         </StyledText>
