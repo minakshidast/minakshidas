@@ -114,17 +114,6 @@ module.exports = {
 
   projects: [
     {
-      title: 'Redbus_clone',
-      tech: ['React', 'Redux', 'MongoDB', 'Express', 'Node'],
-      github: 'https://github.com/Ashwani-Sahu/redbus-clone-masai',
-      link:
-        'https://www.linkedin.com/posts/minakshi-das-71363217a_hello-everyone-me-and-my-teammates-aleem-ugcPost-6826177911662407680-3el-',
-      image: 'https://miro.medium.com/max/1400/1*0ZPDs6gH3J0W8J848ev_GA.jpeg',
-
-      html:
-        '<p> RedBus is an Indian online bus ticketing platform, providing ticket booking facility through its website,</p>',
-    },
-    {
       title: 'Flipkart_clone',
       tech: ['React', 'Redux', 'Material-UI', 'Javascript', 'Json Server'],
       github: 'https://github.com/minakshidast/Flipkart_clone',
